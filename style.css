@@ -1,0 +1,42 @@
+body {
+    background: url('./assets/bg-mobile.svg') #000;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-container {
+    max-width: 1024px;
+    margin: 30px auto;
+}
+
+header img {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+main .image-container img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+main .text-container {
+    text-align: center;
+}
+
+main .text-container button {
+    background: #fff;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 15px 50px;
+}
+
+footer div.social a {
+    color: #fff;
+}
